@@ -1,5 +1,6 @@
 package com.company.ProductService.service;
 
+import com.company.ProductService.ProductServiceCustomException;
 import com.company.ProductService.entity.Product;
 import com.company.ProductService.model.ProductReponse;
 import com.company.ProductService.model.ProductRequest;
@@ -38,7 +39,7 @@ public class ProductServiceImpl implements ProductService{
 
         Product product
                 = productRepository.findById(productId)
-                .orElseThrow(() -> new RuntimeException("Product with given id not found"));
+                .orElseThrow(() -> new ProductServiceCustomException("Product with given id not found", "PRODUCT_NOT_FOUND"));
 
         ProductReponse productReponse
                 = new ProductReponse();
