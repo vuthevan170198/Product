@@ -1,4 +1,4 @@
-package com.company.ProductService;
+package com.company.ProductService.exception;
 
 import lombok.Data;
 

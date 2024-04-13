@@ -5,6 +5,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ProductService/pom.xml" />
+        <option value="$PROJECT_DIR$/../Micro2/service-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/../Study MicoSerive/Micro2/service-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/../Study MicoSerive/Micro2/OrderService/pom.xml" />
+        <option value="$PROJECT_DIR$/../Study MicoSerive/Micro2/Config Server/ConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/../Study MicoSerive/Micro2/PaymentService/pom.xml" />
       </list>
     </option>
   </component>
